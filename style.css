@@ -1,0 +1,130 @@
+<<<<<<< HEAD
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+body{
+    background: linear-gradient(to right,#00AAFF,#00FF6C);
+    font-family: sans-serif;
+}
+.calc{
+    width: fit-content;
+    /* background: rgb(2, 169, 184); */
+    /* max-width: 500px; */
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.calc .result{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0,.75);
+    color: white;
+    display: flex;
+    height: 120px;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.result .prev{
+    color: rgba(255,255,255,.75);
+    font-size: 1.5rem
+}
+.result .current{
+    color: white;
+    font-size: 2.5rem
+}
+.calc .boxes{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+}
+.calc .boxes div{
+    /*background-color: rgb(13, 124, 164);
+    */background: rgba(255,255,255,75%);
+    font-size: 2rem;
+    border: 1px solid white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.calc .boxes div:is(:first-child,:last-child){
+    grid-column: span 2;
+}
+.calc .boxes div:hover{
+    background: rgba(255,255,255,.9);
+=======
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+body{
+    background: linear-gradient(to right,#00AAFF,#00FF6C);
+    font-family: sans-serif;
+}
+.calc{
+    width: fit-content;
+    /* background: rgb(2, 169, 184); */
+    /* max-width: 500px; */
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+}
+.calc .result{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(0, 0, 0,.75);
+    color: white;
+    display: flex;
+    height: 120px;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.result .prev{
+    color: rgba(255,255,255,.75);
+    font-size: 1.5rem
+}
+.result .current{
+    color: white;
+    font-size: 2.5rem
+}
+.calc .boxes{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+}
+.calc .boxes div{
+    /*background-color: rgb(13, 124, 164);
+    */background: rgba(255,255,255,75%);
+    font-size: 2rem;
+    border: 1px solid white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.calc .boxes div:is(:first-child,:last-child){
+    grid-column: span 2;
+}
+.calc .boxes div:hover{
+    background: rgba(255,255,255,.9);
+>>>>>>> dc17eb3 (mod)
+}
